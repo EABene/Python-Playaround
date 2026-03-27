@@ -6,6 +6,7 @@ import os
 
 FILE = "todos.json"
 
+# utility functions
 
 def load_todos():
     if not os.path.exists(FILE):
@@ -18,6 +19,7 @@ def save_todos(todos):
     with open(FILE, "w") as f:
         json.dump(todos, f, indent=2)
 
+# usability functions
 
 def add_task(title):
     todos = load_todos()
