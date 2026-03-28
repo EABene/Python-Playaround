@@ -14,26 +14,24 @@ computer_choice = random.choice(["Schere", "Stein", "Papier"])
 
 if user_choice == "Exit":
     print("Du hast das Programm verlassen.")
-    exit()
+    exit() 
 
 print("Deine Auswahl: ", user_choice)
 print("Computer Auswahl: ", computer_choice)
 
 #Scoring
 
+wins_against = {
+    "Schere": "Papier",
+    "Stein":  "Schere",
+    "Papier": "Stein",
+}
+
 if user_choice == "Exit":
     print()
 elif user_choice == computer_choice:
     print("Unentschieden")
-elif user_choice == "Papier" and computer_choice == "Schere":
-    print("Du hast verloren :(")
-elif user_choice == "Papier" and computer_choice == "Stein":
+elif wins_against[user_choice] == computer_choice:
     print("Du hast gewonnen :)")
-elif user_choice == "Schere" and computer_choice == "Stein":
+else:
     print("Du hast verloren :(")
-elif user_choice == "Schere" and computer_choice == "Papier":
-    print("Du hast gewonnen :)")
-elif user_choice == "Stein" and computer_choice == "Papier":
-    print("Du hast verloren :(")
-elif user_choice == "Stein" and computer_choice == "Schere":
-    print("Du hast gewonnen :)")
