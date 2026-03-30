@@ -1,11 +1,15 @@
 import random
-
+import sys
 
 user_score, computer_score = 0, 0
 
 while user_score < 3 and computer_score < 3:
 
     user_input = input("Wähle Kopf oder Zahl: >> ")
+    user_input = user_input.capitalize()
+    if user_input == "Aufgeben":
+        print("Du hast aufgegeben. No Score.")
+        sys.exit()
     computer_input = random.choice(["Kopf", "Zahl"])
 
     print("Du sagst:", user_input)

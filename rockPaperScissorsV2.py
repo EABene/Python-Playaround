@@ -4,7 +4,13 @@ valid_options = ["schere", "stein", "papier", "exit"]
 user_choice = ""
 user_score, computer_score = 0, 0
 
-while user_choice != "Exit" or user_score < 3 or computer_score < 3:
+while user_choice != "Exit":
+    if user_score >2:
+        print("DU HAST DAS MATCH GEWONNEN")
+        break
+    elif computer_score > 2:
+        print("DU HAST DAS MATCH LEIDER VERLOREN")
+        break
 
     while True:
         user_choice = input("Wähle Schere, Stein oder Papier >> ")
@@ -35,12 +41,13 @@ while user_choice != "Exit" or user_score < 3 or computer_score < 3:
         print()
     elif user_choice == computer_choice:
         print("Unentschieden")
-        print("Score:")
-        print(f"Du: {user_score}; Com: {computer_score}")
     elif wins_against[user_choice] == computer_choice:
         print("Du hast gewonnen :)")
         user_score += 1
-        print("Score:")
-        print(f"Du: {user_score}; Com: {computer_score}")
     else:
         print("Du hast verloren :(")
+        computer_score += 1
+
+    print("--------")
+    print("Score:")
+    print(f"Du: {user_score}; Com: {computer_score}")
