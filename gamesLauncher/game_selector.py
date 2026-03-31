@@ -4,11 +4,12 @@ import rockPaperScissorsGame
 import rockPaperScissorsBestOfFiveGame
 
 
-print("Folgendes ist spielbar:")
-print("1: CoinFlip")
-print("2: CoinFlip Best of Five")
-print("3: RockPaperScissors")
-print("4: RockPaperScissors Best of Five")
+print("""Folgendes ist spielbar:
+1: CoinFlip
+2: CoinFlip Best of Five
+3: RockPaperScissors
+4: RockPaperScissors Best of Five""")
+
 choice = input("Wähle dein Spiel aus >> ")
 
 games = {
@@ -18,9 +19,9 @@ games = {
     "4": rockPaperScissorsBestOfFiveGame.start
 }
 
-
-
-
+if choice in games:
+    games[choice]()
+else: print("Spiel wurde nicht gefunden. Programm wird beendet.")
 
 
 print("Fertig.")

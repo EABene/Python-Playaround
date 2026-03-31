@@ -1,28 +1,33 @@
 import random
 import sys
 
-user_score, computer_score = 0, 0
+def start():
 
-while user_score < 3 and computer_score < 3:
+    user_score, computer_score = 0, 0
 
-    user_input = input("Wähle Kopf oder Zahl: >> ")
-    user_input = user_input.capitalize()
-    if user_input == "Aufgeben":
-        print("Du hast aufgegeben. No Score.")
-        sys.exit()
-    computer_input = random.choice(["Kopf", "Zahl"])
+    while user_score < 3 and computer_score < 3:
 
-    print("Du sagst:", user_input)
-    print("Münzwurf:", computer_input)
+        user_input = input("Wähle Kopf oder Zahl: >> ")
+        user_input = user_input.capitalize()
+        if user_input == "Aufgeben":
+            print("Du hast aufgegeben. No Score.")
+            sys.exit()
+        computer_input = random.choice(["Kopf", "Zahl"])
 
-    if user_input == computer_input:
-        user_score += 1             # wenn richtig
-    else: computer_score += 1       # wenn falsch
+        print("Du sagst:", user_input)
+        print("Münzwurf:", computer_input)
 
-    if user_score > 2:
-        print("Gratuliere, du hast gewonnen!")
-    elif computer_score > 2: print("Leider verloren...")
+        if user_input == computer_input:
+            user_score += 1             # wenn richtig
+        else: computer_score += 1       # wenn falsch
 
-    if user_score < 3 and computer_score < 3:
-        print("Zwischenstand:")
-        print(f"Du: {user_score}, Computer: {computer_score}")
+        if user_score > 2:
+            print("Gratuliere, du hast gewonnen!")
+        elif computer_score > 2: print("Leider verloren...")
+
+        if user_score < 3 and computer_score < 3:
+            print("Zwischenstand:")
+            print(f"Du: {user_score}, Computer: {computer_score}")
+
+if __name__ == "__main__":
+    start()
