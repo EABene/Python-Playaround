@@ -1,23 +1,19 @@
 import random
 import sys
 
-def main():
 
-    user_input = input("Wähle Kopf oder Zahl: >> ")
-    user_input = user_input.capitalize()
-    computer_input = random.choice(["Kopf", "Zahl"])
+user_input = input("Wähle Kopf oder Zahl: >> ")
+user_input = user_input.capitalize()
+computer_input = random.choice(["Kopf", "Zahl"])
 
 
-    if user_input == "Aufgeben":
-        print("Du hast Aufgegeben. Kein Spiel")
-        sys.exit()
+if user_input == "Aufgeben":
+    print("Du hast Aufgegeben. Kein Spiel")
+    sys.exit()
 
-    print("Du sagst:", user_input)
-    print("Münzwurf:", computer_input)
+print("Du sagst:", user_input)
+print("Münzwurf:", computer_input)
 
-    if user_input == computer_input:
-        print("Congrats, you win!")
-    else: print("Unlucky, you lost...")
-
-if __name__ == "__main__":
-    main()
+if user_input == computer_input:
+    print("Congrats, you win!")
+else: print("Unlucky, you lost...")
