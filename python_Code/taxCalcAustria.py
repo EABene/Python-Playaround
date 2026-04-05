@@ -6,7 +6,7 @@ import sys
 # Simple Austria net salary estimator: input gross monthly pay, computes net monthly and yearly (x14).
 # Note: This is an approximation (uses a flat employee social security rate and 2023-ish progressive tax brackets).
 # Use for estimates only.
-
+# This app has been "vibe-coded" with AI
 
 SOCIAL_RATE = 0.1812  # approximate employee social security contribution (18.12%)
 # By default handle special payments (13th/14th) with a reduced flat tax rate.
