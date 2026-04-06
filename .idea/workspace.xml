@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97d817a4-a3eb-4ef1-9783-5c2fe7ec69ad" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/first_small_python_projects/todo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_small_python_projects" beforeDir="false" afterPath="$PROJECT_DIR$/first_small_python_projects" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_Code/taxCalcAustria.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_Code/taxCalcAustria.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_Code/weather-app/weather.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_Code/weather-app/weather.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/first_small_python_projects" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/first_small_python_projects/rockPaperScissors.py" root0="SKIP_INSPECTION" />
@@ -42,9 +47,10 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.coinflip.executor&quot;: &quot;Run&quot;,
+    &quot;Python.coinflip.executor&quot;: &quot;Debug&quot;,
     &quot;Python.game_selector.executor&quot;: &quot;Run&quot;,
     &quot;Python.rockPaperScissors.executor&quot;: &quot;Run&quot;,
+    &quot;Python.weather.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
@@ -54,6 +60,7 @@
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/sandlerb/Desktop/python_Code/first_small_python_projects&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -63,7 +70,7 @@
       <recent name="$PROJECT_DIR$/first_small_python_projects" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.game_selector">
+  <component name="RunManager" selected="Python.weather">
     <configuration name="coinflip" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Code" />
       <option name="ENV_FILES" value="" />
@@ -110,10 +117,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="weather" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_Code" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_Code/weather-app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_Code/weather-app/weather.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.game_selector" />
+        <item itemvalue="Python.weather" />
         <item itemvalue="Python.coinflip" />
+        <item itemvalue="Python.game_selector" />
       </list>
     </recent_temporary>
   </component>
