@@ -20,11 +20,15 @@ class Instrument:
 
 a = Instrument("Trompete", "Bb")
 b = Instrument("Gitarre", "C")
+c = Instrument("Klarinette", "Es")
+
 
 print(a.status())
-print(a.stimmen())
-print(a.status())
-
 print(b.status())
+print(c.status())
+
 print(b.stimmen())
+
+print(a.status())
 print(b.status())
+print(c.status())
