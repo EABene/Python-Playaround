@@ -1,24 +1,30 @@
-# Einführung in Classes
-
-class Gitarre:
-    def __init__(self, marke, saitenanzahl):
-        self.marke = marke
-        self.saitenanzahl = saitenanzahl
-
-    def beschreibung(self):
-        return f"{self.marke} mit {self.saitenanzahl} Saiten"
-
-meine_gitarre = Gitarre("Fender", 6)
-print(meine_gitarre.beschreibung())  # → Fender mit 6 Saiten
 
 
+class Instrument:
+    def __init__(self, name, stimmung):
+        self.name = name
+        self.stimmung = stimmung
+        self.ist_gestimmt = False
+
+    def stimmen(self):
+        self.ist_gestimmt = True
+        return f"{self.name} ({self.stimmung}) wurde gestimmt."
+
+    def status(self):
+        if self.ist_gestimmt:
+            return f"{self.name} ist gestimmt."
+        else:
+            return f"{self.name} ist nicht gestimmt."
 
 
 
+a = Instrument("Trompete", "Bb")
+b = Instrument("Gitarre", "C")
 
-"""
-__init__ – der Konstruktor: wird automatisch beim Erstellen einer Instanz aufgerufen
-self – Referenz auf die aktuelle Instanz (entspricht this in anderen Sprachen)
-Attribut – eine Variable, die zu einer Instanz gehört (self.marke)
-Methode – eine Funktion innerhalb einer Klasse 
-"""
+print(a.status())
+print(a.stimmen())
+print(a.status())
+
+print(b.status())
+print(b.stimmen())
+print(b.status())
