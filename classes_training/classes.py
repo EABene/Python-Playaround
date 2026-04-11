@@ -11,6 +11,11 @@ class Gitarre:
 meine_gitarre = Gitarre("Fender", 6)
 print(meine_gitarre.beschreibung())  # → Fender mit 6 Saiten
 
+
+
+
+
+
 """
 __init__ – der Konstruktor: wird automatisch beim Erstellen einer Instanz aufgerufen
 self – Referenz auf die aktuelle Instanz (entspricht this in anderen Sprachen)
