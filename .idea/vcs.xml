@@ -2,7 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/first_small_python_projects" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/weather-app" vcs="Git" />
   </component>
 </project>
