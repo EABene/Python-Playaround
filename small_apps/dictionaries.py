@@ -3,11 +3,17 @@
 # Erstellen -----
 
 d = {}
-e = dict()
+d = dict()
 
 # mit Inhalt -----
 
 person = {"name": "John", "age": 25, "car": "VW Golf", "city": "Stockholm"}
+
+person = {"name": "John",
+          "age": 25,
+          "car": "VW Golf",
+          "city": "Stockholm"
+          }
 
 # Lesen -----
 
@@ -61,15 +67,16 @@ even_squares = {x: x**2 for x in range(1, 11) if x % 2 == 0}
 
 a = {"x": 1}
 b = {"y": 2}
-merged = a | b # merged = {'x': 1, 'y': 2}
+merged = a | b # merged = {'x': 1, 'y': 2}; Pipe Operator!
 a |= b # a = {'x': 1, 'y': 2}
 merged2 = {**a, **b} # merged2 = {'x': 1, 'y': 2} ** = unpacking operator. Entpackt Dict in einzelne Key-Value Paare
 
-# setdefault
+# setdefault -----
 
 person.setdefault("job", "Unknown")
 # Nützlich um KeyErrors zu vermeiden beim ersten Befüllen
 # Key setzen NUR, wenn er noch nicht existiert
+
 #Anwendung:
 text = ["apple", "banana", "apple", "cherry", "banana", "apple"]
 count = {}
