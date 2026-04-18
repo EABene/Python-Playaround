@@ -1,6 +1,5 @@
 # write a program that orders ice cream and uses decorators to add stuff to the ice cream
-# comment line
-# comment line
+
 
 
 def add_sprinkles(func):
@@ -16,16 +15,15 @@ def add_smarties(func):
     return wrapper
 
 
-
 @add_smarties
 @add_sprinkles
-def get_ice_cream(flavour):
-    print(f"You get {flavour} Ice Cream!")
+def get_ice_cream(flavor):
+    print(f"You get {flavor} Ice Cream!")
 
 
 # ----------------------------------------
 
-get_ice_cream("Stracciatella")
+get_ice_cream("Strawberry")
 print()
-get_ice_cream("Lemon")
+get_ice_cream("Vanilla")
 print()
