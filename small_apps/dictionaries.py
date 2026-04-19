@@ -17,7 +17,7 @@ person = {"name": "John",
 
 # Lesen -----
 
-a = person["name"]
+xa = person["name"]
 b = person.get("name")
 c = person.get("job", "N/A")
 
