@@ -7,7 +7,6 @@ eligible_signs = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m
                   "(", ")", "?", "€", "@"]
 random.shuffle(eligible_signs)
 
-
 def passgen_part():
     password_part = []
     for sign in eligible_signs:
