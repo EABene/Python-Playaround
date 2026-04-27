@@ -1,6 +1,5 @@
 # Learning dictionaries here
 
-
 # Erstellen -----
 
 d = {}
