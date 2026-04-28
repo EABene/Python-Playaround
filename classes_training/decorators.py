@@ -20,7 +20,9 @@ def get_ice_cream(flavor):
     print(f"You get {flavor} Ice Cream!")
 
 
+
 # ----------------------------------------
+
 
 get_ice_cream("Strawberry")
 print()
