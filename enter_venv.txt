@@ -1,0 +1,5 @@
+To enter the Virtual Environment, you need to activate it as follows:
+
+source venv/bin/activate
+
+Then, "(venv)" should be visible in the Terminal line.

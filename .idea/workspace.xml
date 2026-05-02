@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97d817a4-a3eb-4ef1-9783-5c2fe7ec69ad" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/small_projects_mac.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/small_projects_mac.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_apps/dictionaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/small_apps/dictionaries.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/small_apps/expense_tracker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_book/first_app.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +45,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.alien_invasion.executor": "Run",
+    "Python.app.executor": "Run",
     "Python.coinflip.executor": "Debug",
     "Python.decorators.executor": "Run",
     "Python.dictionaries.executor": "Run",
     "Python.expense_tracker.executor": "Run",
+    "Python.first_app.executor": "Run",
     "Python.game_selector.executor": "Run",
     "Python.rockPaperScissors.executor": "Run",
     "Python.unit_converter.executor": "Run",
@@ -63,7 +66,7 @@
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/Users/sandlerb/Desktop/small_projects_mac",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.python.group.settings",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
