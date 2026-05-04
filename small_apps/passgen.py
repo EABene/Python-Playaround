@@ -23,7 +23,7 @@ def passgen_part():
 
 # Start of the App
 
-user_choice = input("Do you want to generate a password? (y/n): ")
+user_choice = input("Do you want to generate a safe password? (y/n): ")
 if user_choice == "y":
     user_choice = True
 else: user_choice = False
