@@ -1,7 +1,17 @@
 import os
+from pathlib import Path
 import json
 
-# Datei erstellen falls nicht vorhanden
-if not os.path.exists("habits.json"):
-    with open ("habits.json", "w") as f:
+FILE_PATH = Path(__file__).parent / "habits.json"
+
+if not FILE_PATH.exists():
+    with open(FILE_PATH, "w") as f:
         json.dump({}, f)
+
+
+data = {"Paul": 2, "John": 3}
+
+with open(FILE_PATH, "w") as f:
+    json.dump(data, f, indent=2)
+
+print("done")
