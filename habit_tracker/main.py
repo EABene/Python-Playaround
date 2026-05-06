@@ -2,6 +2,7 @@ import os
 from pathlib import Path
 import json
 
+
 FILE_PATH = Path(__file__).parent / "habits.json"
 
 if not FILE_PATH.exists():
