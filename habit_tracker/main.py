@@ -9,7 +9,6 @@ if not FILE_PATH.exists():
     with open(FILE_PATH, "w") as f:
         json.dump({}, f)
 
-
 data = {"Paul": 2, "John": 3}
 
 with open(FILE_PATH, "w") as f:
